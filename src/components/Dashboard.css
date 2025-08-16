@@ -1,0 +1,131 @@
+.logo
+{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 5%;
+    justify-content: space-between;
+}
+.body
+{
+    background-color: whitesmoke;
+}
+
+img
+{
+    font-size: large;
+    height: 35px;
+    width: 100px;
+
+}
+.logo>p{
+    color: white;
+    font-size: small;
+    margin: 8px;
+}
+.filterlabel
+{
+    font-size: x-small;
+    margin-right: 2px;
+    margin-left: 4px;
+    
+}
+.chart-filters
+{
+    margin-top: 0%;
+    display: flex;
+    height: 10%;
+    width: 100%;
+    gap:5px;
+    background-color: white;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.chart-filters>p{
+    margin:10px ;
+    font-weight: bold;
+}
+.filters{
+    margin: 10px;
+    
+}
+select {
+  font-size: 10px; /* Adjust as needed */
+  padding: 5px;
+  font-weight: bold;
+}
+.outlined-button
+{
+    height: 4%;
+    margin: 10px;
+    background-color: orange;    
+  padding: 10px 25px; /* Adjust for oval shape */
+  border-radius: 50px; /* Higher value makes it rounder */
+  border: none;
+  cursor: pointer;
+  font-size: 8px;
+  font-weight: bold;
+}
+.dashboard
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 0%;
+    
+    justify-content: space-evenly;
+}
+.graph
+{
+    height: 240px;
+    background-color: white;
+    width: 48.5%;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.table
+{
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 300px;
+    width: 98%;
+    background-color: whitesmoke;
+     box-shadow: 1px 1px 1px 1px grey;
+}
+#x-axis-scroll-container::-webkit-scrollbar {
+  height: 4px;
+}
+
+#x-axis-scroll-container::-webkit-scrollbar-thumb {
+  background-color: rgba(150, 150, 150, 0.6);
+  border-radius: 10px;
+}
+
+#x-axis-scroll-container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+#x-axis-scroll-container::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+.DatePicker-style
+{
+  font-size: 5px;
+
+}
+
+@media only screen and (max-width: 1100px)
+{
+  .graph{
+    width : 98%;
+    margin-bottom: 2%;
+  }
+
+
+}
+
+
+
