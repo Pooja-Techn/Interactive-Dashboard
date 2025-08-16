@@ -29,7 +29,7 @@ export const Dashboard = () => {
     <>
       <div>
         <header className='logo'>
-          <img src="/images/logo.png" alt="logo img" />
+          <img src="/images/gif.png" alt="logo img" />
           <p> Data Analyst : TG</p>
         </header>
         <header className='chart-filters'>
